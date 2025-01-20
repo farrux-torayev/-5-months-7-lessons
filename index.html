@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link  rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
   </head>
   <body>
@@ -46,21 +46,24 @@
               <img src="./assets/icon/phone (1) 1.svg" alt="" />
               <p class="">+380 67661 5415</p>
             </div>
-            <button id="open-mobile-btn"  class="tablet:hidden ">
+            <button id="open-mobile-btn" class="tablet:hidden">
               <img src="./assets/icon/feather_menu.svg" alt="menu" />
             </button>
-            <button id="open-tablet-btn" class="hidden tablet:block largetablet:hidden ">
+            <button
+              id="open-tablet-btn"
+              class="hidden tablet:block largetablet:hidden"
+            >
               <img src="./assets/icon/feather_menu.svg" alt="menu" />
             </button>
           </div>
         </div>
-        <div class="nav-mobile-menu container  ml-[10px]  tablet:hidden ">
-          <div class="wrapper ">
-            <div class="flex justify-between   px-[20px] py-[20px]" >
+        <div class="nav-mobile-menu container ml-[10px] tablet:hidden">
+          <div class="wrapper">
+            <div class="flex justify-between px-[20px] py-[20px]">
               <div>
                 <img src="./assets/icon/logo (4).svg" alt="logo" />
               </div>
-              <button  id="close-mobile-btn">
+              <button id="close-mobile-btn">
                 <img src="./assets/icon/Group.svg" alt="menu" />
               </button>
             </div>
@@ -87,7 +90,7 @@
                 </a>
               </li>
             </ul>
-            <div class="flex gap-[15px] pt-[40px] pb-[140px] ">
+            <div class="flex gap-[15px] pt-[40px] pb-[140px]">
               <img src="./assets/icon/bx_bxl-instagram-alt.svg" alt="" />
               <img src="./assets/icon/brandico_facebook.svg" alt="" />
             </div>
@@ -95,8 +98,8 @@
               <img src="./assets/icon/phone (1) 1.svg" alt="" />
               <p class="text-[20px]">+380 67661 5415</p>
             </div>
-            <div class=" pb-[10px]">
-              <button 
+            <div class="pb-[10px]">
+              <button
                 class="py-[22px] pl-[56px] pr-[49px] bg-[#AE7B3C] text-white text-[16px] font-[700]"
               >
                 Обговорити проект
@@ -104,8 +107,10 @@
             </div>
           </div>
         </div>
-        <div class="nav-tablet-menu container mobile:hidden  largetablet:hidden ">
-          <div class="wrapper px-[20px] py-[20px] flex justify-between items-center">
+        <div class="nav-tablet-menu pb-[100px]  container mobile:hidden largetablet:hidden">
+          <div
+            class="wrapper px-[20px] py-[20px] flex justify-between items-center"
+          >
             <div>
               <img src="./assets/icon/logo (4).svg" alt="logo" />
             </div>
@@ -118,15 +123,43 @@
               <img src="./assets/icon/phone (1) 1.svg" alt="" />
               <p class="">+380 67661 5415</p>
             </div>
-            <button id="close-tablet-btn" class="largetablet:hidden ">
+            <button id="close-tablet-btn" class="largetablet:hidden">
               <img src="./assets/icon/Group.svg" alt="menu" />
             </button>
           </div>
-          <div class="flex ">
-          <div class="w-[300px]">
-            <img src="./assets/icon/layn garadent.svg" alt="">
-          </div>
-          <ul class="flex flex-col gap-[40px] absolute right-[165px] pt-[50px]">
+          <div class="flex">
+            <div
+              class="tablet-hero-res  hidden tablet:block largetablet:hidden pt-[70px] pb-[124px] mb-[140px]"
+            >
+              <div class="container">
+                <div class="wrapper text-center">
+                  <h2
+                    class="mt-[120px] pb-[20px] text-[56px] font-[700] uppercase text-white"
+                  >
+                    виробництво <br />меблів
+                  </h2>
+                  <p class="pb-[50px] text-white">
+                    Ми виконуємо комплексне <br class="tablet:hidden" />
+                    виготовлення корпусних меблів
+                    <br class="hidden tablet:block" />
+                    для <br class="tablet:hidden" />
+                    житлових і комерційних приміщень,
+                    <br class="tablet:hidden" />
+                    забезпечимо Вас <br class="hidden tablet:block" />
+                    якісним меблевим <br class="tablet:hidden" />
+                    продуктом власного виробництва.
+                  </p>
+                  <button
+                    class="py-[22px] pl-[56px] pr-[49px] bg-[#AE7B3C] text-white"
+                  >
+                    Обговорити проект
+                  </button>
+                </div>
+              </div>
+            </div>
+            <ul
+            class=" bg-white h-[692px] w-[320px] pl-[20px] flex flex-col gap-[40px] absolute right-[2px] pt-[50px]"
+          >
             <li class="">
               <a href="">
                 <span> Напрямки </span>
@@ -148,13 +181,17 @@
               </a>
             </li>
           </ul>
-        </div>
+          </div>
+           
+          
         </div>
       </nav>
     </header>
 
     <main class="ml-[50px] tablet:ml-[0px]">
-      <section class="hero hidden desktop:block  pt-[70px] pb-[124px] mb-[140px]">
+      <section
+        class="hero hidden desktop:block pt-[70px] pb-[124px] mb-[140px]"
+      >
         <div class="container">
           <div class="wrapper text-center">
             <h2
@@ -179,58 +216,10 @@
           </div>
         </div>
       </section>
-      <section class="largetablet-hero hidden largetablet:block desktop:hidden pt-[70px] pb-[124px] mb-[140px]">
+      <section
+        class="largetablet-hero hidden largetablet:block desktop:hidden pt-[70px] pb-[124px] mb-[140px]"
+      >
         <div class="container">
-          <div class="wrapper text-center ">
-            <h2
-              class="mt-[120px] pb-[20px] text-[56px] font-[700] uppercase text-white"
-            >
-              виробництво <br />меблів
-            </h2>
-            <p class="pb-[50px] text-white">
-              Ми виконуємо комплексне <br class="tablet:hidden" />
-              виготовлення корпусних меблів <br class="hidden tablet:block" />
-              для <br class="tablet:hidden" />
-              житлових і комерційних приміщень, <br class="tablet:hidden" />
-              забезпечимо Вас <br class="hidden tablet:block" />
-              якісним меблевим <br class="tablet:hidden" />
-              продуктом власного виробництва.
-            </p>
-            <button
-              class="py-[22px] pl-[56px] pr-[49px] bg-[#AE7B3C] text-white"
-            >
-              Обговорити проект
-            </button>
-          </div>
-        </div>
-      </section>
-      <section class="tablet-hero hidden tablet:block largetablet:hidden pt-[70px] pb-[124px] mb-[140px]">
-        <div class="container">
-          <div class="wrapper text-center">
-           <h2
-              class="mt-[120px] pb-[20px] text-[56px] font-[700] uppercase text-white"
-            >
-              виробництво <br />меблів
-            </h2>
-            <p class="pb-[50px] text-white">
-              Ми виконуємо комплексне <br class="tablet:hidden" />
-              виготовлення корпусних меблів <br class="hidden tablet:block" />
-              для <br class="tablet:hidden" />
-              житлових і комерційних приміщень, <br class="tablet:hidden" />
-              забезпечимо Вас <br class="hidden tablet:block" />
-              якісним меблевим <br class="tablet:hidden" />
-              продуктом власного виробництва.
-            </p>
-            <button
-              class="py-[22px] pl-[56px] pr-[49px] bg-[#AE7B3C] text-white"
-            >
-              Обговорити проект
-            </button>
-          </div>
-        </div>
-      </section>
-      <section class="mobile-hero   tablet:hidden pt-[70px] pb-[124px] mb-[140px]">
-        <div class="container ">
           <div class="wrapper text-center">
             <h2
               class="mt-[120px] pb-[20px] text-[56px] font-[700] uppercase text-white"
@@ -254,19 +243,77 @@
           </div>
         </div>
       </section>
-      
+      <section
+        class="tablet-hero hidden tablet:block largetablet:hidden pt-[70px] pb-[124px] mb-[140px]"
+      >
+        <div class="container">
+          <div class="wrapper text-center">
+            <h2
+              class="mt-[120px] pb-[20px] text-[56px] font-[700] uppercase text-white"
+            >
+              виробництво <br />меблів
+            </h2>
+            <p class="pb-[50px] text-white">
+              Ми виконуємо комплексне <br class="tablet:hidden" />
+              виготовлення корпусних меблів <br class="hidden tablet:block" />
+              для <br class="tablet:hidden" />
+              житлових і комерційних приміщень, <br class="tablet:hidden" />
+              забезпечимо Вас <br class="hidden tablet:block" />
+              якісним меблевим <br class="tablet:hidden" />
+              продуктом власного виробництва.
+            </p>
+            <button
+              class="py-[22px] pl-[56px] pr-[49px] bg-[#AE7B3C] text-white"
+            >
+              Обговорити проект
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        class="mobile-hero tablet:hidden pt-[70px] pb-[124px] mb-[140px]"
+      >
+        <div class="container">
+          <div class="wrapper text-center">
+            <h2
+              class="mt-[120px] pb-[20px] text-[56px] font-[700] uppercase text-white"
+            >
+              виробництво <br />меблів
+            </h2>
+            <p class="pb-[50px] text-white">
+              Ми виконуємо комплексне <br class="tablet:hidden" />
+              виготовлення корпусних меблів <br class="hidden tablet:block" />
+              для <br class="tablet:hidden" />
+              житлових і комерційних приміщень, <br class="tablet:hidden" />
+              забезпечимо Вас <br class="hidden tablet:block" />
+              якісним меблевим <br class="tablet:hidden" />
+              продуктом власного виробництва.
+            </p>
+            <button
+              class="py-[22px] pl-[56px] pr-[49px] bg-[#AE7B3C] text-white"
+            >
+              Обговорити проект
+            </button>
+          </div>
+        </div>
+      </section>
+
       <section>
-        <div class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
-          <div class="wrapper ">
+        <div
+          class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
+          <div class="wrapper">
             <h2
               class="text-[46px] font-[600] text-center pb-[50px] tablet:pb-[80px] text-[#282B22] uppercase"
             >
               Основні <br class="tablet:hidden" />
               напрямки
             </h2>
-            <div class="justify-center largetablet:flex gap-[30px] desktop:w-[1200px]">
+            <div
+              class="justify-center largetablet:flex gap-[30px] desktop:w-[1200px]"
+            >
               <div class="tablet:flex gap-[30px] pb-[60px] pl-[30px]">
-                <div class="hidden:border-l  tablet:border-l">
+                <div class="hidden:border-l tablet:border-l">
                   <p
                     class="text-[24px] font-[600] pl-[30px] pb-[20px] tablet:pb-[40px] largetablet:pb-[60px] text-[#282b226e]"
                   >
@@ -277,9 +324,13 @@
                   >
                     Дизайн інтерєру
                   </p>
-                  <img class="tablet:pl-[30px]" src="./assets/icon/Rectangle 3.svg" alt="" />
+                  <img
+                    class="tablet:pl-[30px]"
+                    src="./assets/icon/Rectangle 3.svg"
+                    alt=""
+                  />
                 </div>
-                <div class="hidden:border-l  tablet:border-l">
+                <div class="hidden:border-l tablet:border-l">
                   <p
                     class="text-[24px] pl-[30px] font-[600] pb-[20px] tablet:pb-[40px] largetablet:pb-[60px] text-[#282b226e]"
                   >
@@ -290,11 +341,15 @@
                   >
                     Виробництво меблів
                   </p>
-                  <img class="tablet:pl-[30px]" src="./assets/icon/happy.svg" alt="" />
+                  <img
+                    class="tablet:pl-[30px]"
+                    src="./assets/icon/happy.svg"
+                    alt=""
+                  />
                 </div>
               </div>
               <div
-                class="hidden:border-l  tablet:border-l hidden:border-r desktop:border-r pr-[30px] pb-[100px] text-[#3D4A39]"
+                class="hidden:border-l tablet:border-l hidden:border-r desktop:border-r pr-[30px] pb-[100px] text-[#3D4A39]"
               >
                 <p
                   class="text-[24px] pl-[30px] font-[600] pb-[20px] tablet:pb-[40px] largetablet:pb-[60px] text-[#282b226e]"
@@ -310,14 +365,20 @@
                   />
                   меблювання
                 </p>
-                <img class="pl-[30px]" src="./assets/icon/Rectangle 3 (1).svg" alt="" />
+                <img
+                  class="pl-[30px]"
+                  src="./assets/icon/Rectangle 3 (1).svg"
+                  alt=""
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="bg-[#3D4A39]">
-        <div class="container  w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+        <div
+          class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <div class="wrapper">
             <div class="tablet:hidden w-[320px] text-white">
               <h2 class="text-center text-[24px] font-[600]">
@@ -426,7 +487,9 @@
         </div>
       </section>
       <section class="Проект mb-[80px]">
-        <div class="container  w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+        <div
+          class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <div class="wrapper">
             <h2
               class="text-[20px] font-[600] text-center pb-[60px] pt-[100px] tablet:text-[28px] largetablet:text-[36px]"
@@ -490,7 +553,9 @@
         </div>
       </section>
       <section class="Наші переваги">
-        <div class="container  w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+        <div
+          class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <div class="wrapper pb-[140px]">
             <h2
               class="text-[24px] font-[600] pl-[62px] tablet:text-center pt-[100px] pb-[65px] tablet:text-[36px] largetablet:text-[46px]"
@@ -607,7 +672,9 @@
         </div>
       </section>
       <section class="Обговоримо bg-[#3D4A39]">
-        <div class="container  w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+        <div
+          class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <div
             class="wrapper tablet:flex tablet:gap-[0px] largetablet:gap-[180px]"
           >
@@ -644,18 +711,35 @@
                 </p>
               </div>
             </div>
-            <div class="pl-[10px] flex ">
-              <img class="w-[320px] hidden desktop:block  desktop:w-[800px] ml-[px]" src="./assets/icon/desktop.svg" alt="" />
-              <img class="w-[420px] hidden largetablet:block desktop:hidden ml-[30px]" src="./assets/icon/largetablet.svg" alt="" />
-              <img class="w-[320px] hidden tablet:block largetablet:hidden  ml-[30px]" src="./assets/icon/tablet.svg" alt="" />
-              <img class="w-[320px] h-[360px] mb-[10px] tablet:hidden ml-[10px]" src="./assets/icon/mobile.svg" alt="" />
-            
+            <div class="pl-[10px] flex">
+              <img
+                class="w-[320px] hidden desktop:block desktop:w-[800px] ml-[px]"
+                src="./assets/icon/desktop.svg"
+                alt=""
+              />
+              <img
+                class="w-[420px] hidden largetablet:block desktop:hidden ml-[30px]"
+                src="./assets/icon/largetablet.svg"
+                alt=""
+              />
+              <img
+                class="w-[320px] hidden tablet:block largetablet:hidden ml-[30px]"
+                src="./assets/icon/tablet.svg"
+                alt=""
+              />
+              <img
+                class="w-[320px] h-[360px] mb-[10px] tablet:hidden ml-[10px]"
+                src="./assets/icon/mobile.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </section>
       <section class="Етапи">
-        <div class="container  w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+        <div
+          class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <h2
             class="text-[24px] font-[600] text-center pb-[50px] pt-[140px] tablet:pb-[60px] largetablet:pb-[80px] tablet:text-[36px] largetablet:text-[46px]"
           >
@@ -740,7 +824,9 @@
         </div>
       </section>
       <section class="Зараз">
-        <div class="container  w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+        <div
+          class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <div class="wrapper">
             <h2
               class="text-[24px] font-[600] pl-[65px] pb-[40px] pt-[80px] tablet:text-[36px] tablet:text-center"
@@ -840,7 +926,9 @@
         </div>
       </section>
       <section class="РИНО bg-[#F3F3F3]">
-        <div class="container bg-[#F3F3F3]  w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+        <div
+          class="container bg-[#F3F3F3] w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <div
             class="wrapper flex justify-center pb-[80px] tablet:border-[2px] rounded-[250px]"
           >
@@ -881,7 +969,9 @@
         </div>
       </section>
       <section class="НАШИ">
-        <div class="container  w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+        <div
+          class="container w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <div class="wrapper">
             <h2
               class="text-[24px] font-[600] text-center pt-[80px] pb-[40px] tablet:text-[36px] largetablet:text-[46px]"
@@ -925,10 +1015,12 @@
           </div>
         </div>
       </section>
-      <section class="Зал bg-[#3D4A39] flex justify-center ">
-        <div class="contaner flex justify-center   w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]">
+      <section class="Зал bg-[#3D4A39] flex justify-center">
+        <div
+          class="contaner flex justify-center w-[400px] tablet:w-[640px] largetablet:w-[960px] desktop:w-[1200px]"
+        >
           <div
-            class="wrapper justify-center   tablet:flex tablet:justify-center largetablet:gap-[180px] desktop:pl-[px] desktop:w-[1240px]"
+            class="wrapper justify-center tablet:flex tablet:justify-center largetablet:gap-[180px] desktop:pl-[px] desktop:w-[1240px]"
           >
             <div class="text-white pl-[10px] w-[320px]">
               <h2 class="text-[28px] font-[600] pb-[20px] pt-[80px]">
@@ -969,11 +1061,27 @@
                 </p>
               </div>
             </div>
-            <div class="flex ">
-              <img class="w-[400px] hidden desktop:block  desktop:w-[800px]  " src="./assets/icon/desktop-image.svg" alt="" />
-              <img class="w-[400px] hidden largetablet:block desktop:hidden  tablet:hidden  largetablet:w-[500px]  ml-[30px]" src="./assets/icon/largetablet-image.svg" alt="" />
-              <img class="w-[400px] hidden tablet:block largetablet:hidden  ml-[30px]" src="./assets/icon/tabletgirl-image.svg" alt="" />
-              <img class="w-[354px]  mb-[10px] tablet:hidden ml-[10px]" src="./assets/icon/mobile-image.svg" alt="" />
+            <div class="flex">
+              <img
+                class="w-[400px] hidden desktop:block desktop:w-[800px]"
+                src="./assets/icon/desktop-image.svg"
+                alt=""
+              />
+              <img
+                class="w-[400px] hidden largetablet:block desktop:hidden tablet:hidden largetablet:w-[500px] ml-[30px]"
+                src="./assets/icon/largetablet-image.svg"
+                alt=""
+              />
+              <img
+                class="w-[400px] hidden tablet:block largetablet:hidden ml-[30px]"
+                src="./assets/icon/tabletgirl-image.svg"
+                alt=""
+              />
+              <img
+                class="w-[354px] mb-[10px] tablet:hidden ml-[10px]"
+                src="./assets/icon/mobile-image.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>

@@ -40,8 +40,22 @@
   background-position-x: 53%;
 }
 .tablet-hero {
-  max-width: 640px;
+  max-width: 800px;
   margin: auto;
+}
+.tablet-hero-res {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) -13.19%,
+      rgba(0, 0, 0, 0.85) 94.01%
+    ),
+    url(../assets/images/tablet-hero.png);
+  background-size: cover;
+  background-position-x: 53%;
+}
+.tablet-hero-res {
+  max-width: 800px;
+  /* margin: auto; */
 }
 .mobile-hero {
   background: linear-gradient(
@@ -72,11 +86,11 @@
 }
 .nav-tablet-menu {
   background: #ffffff;
-  width: 650px;
-  height: 755px;
+  width: 800px;
+  height: 780px;
   position: fixed;
-  top: 20px;
-  left: 53px;
+  top: 0px;
+  left: 0px;
   display: none;
 }
 .table-visible {
